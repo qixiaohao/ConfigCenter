@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <mappers>
+  	<mapper resource="com/et/psm/dao/LoginMapper.xml" />
+  	<mapper resource="com/et/psm/dao/PhoneMapper.xml" />
+  	 <mapper resource="com/et/psm/dao/SellerMapper.xml" />
+  	 <mapper resource="com/et/psm/dao/PhoneMarketMapper.xml" />
+  	 <mapper resource="com/et/psm/dao/SellerStatisticsMapper.xml" />
+  	 <mapper resource="com/et/psm/dao/AreaStatisticsMapper.xml" />
+  	 <mapper resource="com/et/psm/dao/BrandStatisticsMapper.xml" />
+  	 <mapper resource="com/et/psm/dao/MonthStatisticsMapper.xml" />
+  </mappers>
+</configuration>
